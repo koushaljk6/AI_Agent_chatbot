@@ -22,6 +22,37 @@ This project is an AI chatbot application with a Streamlit frontend and a FastAP
 - Incorporates **TavilySearchResults** for optional live internet searches.
 
 ---
+# Running the Project
+
+To get started, you'll need two separate terminals: one for the backend and one for the Streamlit frontend.
+
+---
+
+## Setup and Execution
+
+Follow these steps to launch the application:
+
+1.  **Activate the virtual environment** in *both* of your terminals:
+
+    ```sh
+    pipenv shell
+    ```
+
+2.  In the **first terminal**, start the backend server:
+
+    ```sh
+    python backend.py
+    ```
+
+3.  In the **second terminal**, run the Streamlit frontend:
+
+    ```sh
+    streamlit run frontend.py
+    ```
+
+After completing these steps, the application will launch and automatically open in your web browser.
+
+---
 
 ## Requirements
 
@@ -112,7 +143,6 @@ conda activate myenv
 ```
 pip install -r requirements.txt
 ```
-
 
 # Project Phases and Python Commands
 
