@@ -1,0 +1,10 @@
+langchain-groq
+langchain-openai
+langchain-community
+langgraph==0.3.20
+langchain==0.3.21
+pydantic
+fastapi
+uvicorn
+streamlit
+pycryptodome
